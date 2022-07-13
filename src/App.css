@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
+#Navbar{
+  width:100%;
+  background-color: rgb(77, 122, 122);
+  text-align: center; 
+  padding:8px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+#nav{
+  color: aliceblue;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.flex-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+justify-content: space-between;
+  /* background-color: DodgerBlue; */
+  padding-top:20px ;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#dash{
+  width:25%;
+  /* padding-top: 40%; */
+
+}
+#dash h2{
+
+  padding-top: 15%;
+margin: 0;
+}
+#dashinner, #trends{
+  background-color: rgb(77, 122, 122);
+  text-align: center;
+  font-size: 20px;
+  color: aliceblue;
+  margin-bottom: 10px;
+  height:150px ;
+}
+#feed{
+  width:40%;
+  background-color: rgb(77, 122, 122);
+  /* margin-bottom: 20px; */
+  text-align: center;
+  color:aliceblue
+}
+#feed h2{
+  padding-top: 20%;
+}
+#follow{
+  width:25%;
+  background-color: rgb(77, 122, 122);
+  margin-bottom: 20px;
+  text-align: center;
+  color:aliceblue;
+  height:150px;
+}
+#follow h2{
+  padding-top: 15%;
 }
